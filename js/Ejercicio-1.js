@@ -9,19 +9,23 @@ let auto = {
   color: "Rojo",
 
   encendido: function () {
-    document.write(`El ${this.marca} ${this.modelo} se encendió correctamente <br>`);
+    document.write(
+      `El ${this.marca} ${this.modelo} se encendió correctamente <br>`
+    );
   },
   apagado: function () {
-    document.write(`El ${this.marca} ${this.modelo} se apagó correctamente <br>`);
-  }
+    document.write(
+      `El ${this.marca} ${this.modelo} se apagó correctamente <br>`
+    );
+  },
 };
 
-// Mostrar OBjeto
+// Mostrar Objeto
 
-document.write(`<h1> Mostrar el Objeto Auto</h1>`);
+document.write(`<h1> Mostrar el Objeto Auto:</h1>`);
 
 document.write(
-  `<p> El auto es un ${auto.marca} modelo ${auto.modelo} de color  ${auto.color} </p>`
+  `<h2> El auto es un  ${auto.marca} modelo ${auto.modelo} de color  ${auto.color} </h2>`
 );
 
 auto.encendido();

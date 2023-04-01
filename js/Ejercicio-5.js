@@ -49,12 +49,12 @@ class Persona {
   get altura() {
     return this.#altura;
   }
-  get clase() {
-    return this.#clase;
-  }
+  // get clase() {
+  //   return this.#clase;
+  // }
 
   mostrarGeneracion() {
-    if (this.clase >= 1930 && this.clase < 1949) {
+    if (this.#clase >= 1930 && this.clase < 1949) {
       document.write(`${this.nombre} pertenece a la <b>generación Silenciosa </b> <br>
       `);
     } else if (this.clase >= 1949 && this.clase < 1969) {

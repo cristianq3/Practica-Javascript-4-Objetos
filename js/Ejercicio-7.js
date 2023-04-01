@@ -1,9 +1,3 @@
-
-
-
-
-
-
 class Contacto(nombre, telefono) {
     #nombre;
     #telefono;
